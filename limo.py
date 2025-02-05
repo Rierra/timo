@@ -32,6 +32,7 @@ st.subheader("LiMO, Light finance's helper", divider="rainbow", anchor=False)
 # Initialize Groq client
 client = Groq(api_key="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")
 
+
 # Initialize session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
