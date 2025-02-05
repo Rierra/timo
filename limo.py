@@ -30,7 +30,7 @@ with st.sidebar:
 st.subheader("LiMO, Light finance's helper", divider="rainbow", anchor=False)
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # Initialize session state
 if "messages" not in st.session_state:
