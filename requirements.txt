@@ -2,3 +2,4 @@ groq
 streamlit
 langchain_community
 langchain_experimental
+pdfplumber
